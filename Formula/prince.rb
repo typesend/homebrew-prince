@@ -2,8 +2,8 @@ require "formula"
 
 class Prince < Formula
   homepage "http://www.princexml.com/"
-  url "http://www.princexml.com/download/prince-11-macosx.tar.gz"
-  sha256 "dac005d49c594b90b0933ffac0601997cee8c64c3e6190073dc1d024eb439553"
+  url "https://www.princexml.com/download/prince-11.3-macosx.tar.gz"
+  sha256 "eb45c067620d7978eee6bc615fe19524039a06ef2ee1a25349e49c72ad2e84da"
 
   def install
     ENV["prefix"] = prefix
@@ -17,10 +17,7 @@ class Prince < Formula
 end
 
 __END__
---- prince-9.0r5-macosx.orig/install.sh	2014-04-28 02:21:00.000000000 +0000
-+++ prince-9.0r5-macosx/install.sh	2014-05-16 14:44:07.000000000 +0000
-@@ -7,24 +7,10 @@
- VERSION="8.0"
+ VERSION="11.3"
  WEBSITE="http://www.princexml.com"
  
 -prefix=/usr/local
