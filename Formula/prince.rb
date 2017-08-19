@@ -17,6 +17,9 @@ class Prince < Formula
 end
 
 __END__
+--- prince-9.0r5-macosx.orig/install.sh	2014-04-28 02:21:00.000000000 +0000
++++ prince-9.0r5-macosx/install.sh	2014-05-16 14:44:07.000000000 +0000
+@@ -7,24 +7,10 @@
  VERSION="11.3"
  WEBSITE="http://www.princexml.com"
  
